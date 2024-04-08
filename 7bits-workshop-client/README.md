@@ -1,17 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Getting Started'
+
+Install dependencies:
+
+```bash
+npm ci
+```
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -19,6 +19,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Задание со звездочкой
+* Сделать красивую главную страницу. Убрать оттуда все, связанное с Vercel и Next.js и добавить любые понравившиеся вам картинки, текст или просто покрасить. А также добавить кнопку/ссылку "To Login Page" или что-то в этом духе, при нажатии на которую пользователь перейдет на страницу `/login`. Важно, вы не должны переделывать эту страницу в клиентский компонент (т.е. 'use client' - запрещено). Как сделать навигацию без этого читаем про [Ссылки и навигацию](https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating).
+* Сделать что-то красивое из други страниц. Добавить на страницу логина заголовок, поправить верстку по своему вкусу. Аналогично и для страницы чата.
 
 ## Learn More
 
